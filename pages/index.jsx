@@ -7,20 +7,7 @@ import styles from '../styles/Index.module.css';
 
 export default function Index() {
   useEffect(() => {
-
-    // const unsplash = createApi({
-    //   accessKey: 'YG9kLg6Zb_StSsdpa_-MVy9tWuok1VvnCK8N7C3OdoA',
-    // });
-    // unsplash.search.getPhotos({
-    //   query: 'cat',
-    //   page: 1,
-    //   perPage: 10,
-    //   color: 'green',
-    //   orientation: 'portrait',
-    // }).then((result) => {
-    //   console.log(result.response.results);
-    // });
-
+    console.log('index mounted');
   }, []);
 
   return (

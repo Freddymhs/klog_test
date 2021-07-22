@@ -12,10 +12,12 @@ const FormSearch = () => {
   return (
     <div className={styles.section}>
       <form
+        className={styles.formsection}
         onSubmit={(e) => { searchOnUnplash(e, input); }}
+
       >
         <input className={styles.inputSection} type="text" name="imageName" onChange={saveInput} />
-        <input type="submit" className={styles.buttonSection} />
+        <input type="submit" value="BUSCAR" className={styles.buttonSection} />
       </form>
     </div>
   );

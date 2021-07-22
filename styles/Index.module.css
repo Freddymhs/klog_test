@@ -1,7 +1,7 @@
 /*  all page area */
 
 .container {
-  background-color: #35BCD4;
+  /* background-color: #35BCD4; */
   height: calc(100vh - 3px);
   width: calc(100vw - 1px);
 }
@@ -9,8 +9,13 @@
 /* the main section */
 
 .section {
-  background-color: red;
   height: 18%;
+}
+
+.formsection {
+  /* background-color: red; */
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,22 +23,54 @@
 
 /* input for this section */
 
-.inputSection {}
+.inputSection {
+  background-color: #78c9ff;
+  outline: none;
+  border: none;
+  color: #fff;
+  height: 40px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 0 26px;
+  font-size: 22px;
+}
 
 /* input for this section */
 
-.buttonSection {}
+.buttonSection {
+  background-color: #006ccb;
+  outline: none;
+  border: none;
+  color: #fff;
+  height: 40px;
+  border-radius: 12px;
+  font-size: 22px;
+  padding: 0 17px;
+}
+
+.buttonSection:hover {
+  background-color: #3299ff;
+  outline: none;
+  border: none;
+  color: #fff;
+  height: 40px;
+  border-radius: 12px;
+  font-size: 22px;
+  padding: 0 17px;
+  margin-top: 5px;
+  transition: 0.5s;
+}
 
 /* area content */
 
 .content {
-  background-color: black;
+  /* background-color: black; */
 }
 
 /* images for area content */
 
 .imageContent {
-  background-color: white;
+  /* background-color: white; */
   column-count: 4;
   max-width: 80vw;
   margin-left: auto;
@@ -48,6 +85,7 @@
   background-size: cover;
   max-width: 100%;
   height: auto;
+  border-radius: 12px;
 }
 
 /* .container {
