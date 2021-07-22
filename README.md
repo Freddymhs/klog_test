@@ -5,7 +5,7 @@
 
 - documentacion util
   - [unsplash](https://unsplash.com/documentation#creating-a-developer-account)
-  - [api en vercel](https://nextjs.org/docs/api-routes/introduction)
+  - [api en nextjs](https://nextjs.org/docs/api-routes/introduction)
   - [integracion unsplash-js](https://github.com/unsplash/unsplash-js)
 
 

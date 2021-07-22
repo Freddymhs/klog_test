@@ -2,13 +2,19 @@
 
 .container {
   background-color: #35BCD4;
-  min-height: 100vh;
-  width: 100%
+  height: calc(100vh - 3px);
+  width: calc(100vw - 1px);
 }
 
 /* the main section */
 
-.section {}
+.section {
+  background-color: red;
+  height: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* input for this section */
 
@@ -20,11 +26,29 @@
 
 /* area content */
 
-.content {}
+.content {
+  background-color: black;
+}
 
 /* images for area content */
 
-.imageContent {}
+.imageContent {
+  background-color: white;
+  column-count: 4;
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 33px;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
 
 /* .container {
   min-height: 100vh;
