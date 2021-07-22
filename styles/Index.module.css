@@ -1,4 +1,32 @@
+/*  all page area */
+
 .container {
+  background-color: #35BCD4;
+  min-height: 100vh;
+  width: 100%
+}
+
+/* the main section */
+
+.section {}
+
+/* input for this section */
+
+.inputSection {}
+
+/* input for this section */
+
+.buttonSection {}
+
+/* area content */
+
+.content {}
+
+/* images for area content */
+
+.imageContent {}
+
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -38,9 +66,7 @@
   text-decoration: none;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
+.title a:hover, .title a:focus, .title a:active {
   text-decoration: underline;
 }
 
@@ -50,8 +76,7 @@
   font-size: 4rem;
 }
 
-.title,
-.description {
+.title, .description {
   text-align: center;
 }
 
@@ -65,8 +90,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -90,9 +114,7 @@
   width: 45%;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
+.card:hover, .card:focus, .card:active {
   color: #0070f3;
   border-color: #0070f3;
 }
@@ -118,4 +140,4 @@
     width: 100%;
     flex-direction: column;
   }
-}
+} */
