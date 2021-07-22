@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Head from 'next/head';
+// import Head from 'next/head';
 // import Image from 'next/image'; //  problemas con mi nodev12 en mac m1
 import FormSearch from '../components/FormSearch';
 import Content from '../components/Content';
@@ -24,8 +24,6 @@ export default function Index() {
   }, []);
 
   return (
-    /* envueltos con el provider que trae context */
-
     <div className={styles.container}>
       <FormSearch />
       <Content />

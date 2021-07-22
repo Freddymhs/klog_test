@@ -2,7 +2,7 @@ import React, { createContext, useState, useEffect } from 'react';
 import Axios from 'axios';
 // fetch
 import 'whatwg-fetch';
-import Unsplash, { createApi, toJson } from 'unsplash-js';
+import { createApi } from 'unsplash-js';
 
 // CONTEXT
 export const UnplashContext = createContext();
