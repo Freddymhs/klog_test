@@ -11,7 +11,7 @@ export const UnplashContext = createContext();
 const UnplashProvider = (props) => {
   // constatnes
   const [images, setImages] = useState([]);
-  const unsplash = createApi({ accessKey: 'YG9kLg6Zb_StSsdpa_-MVy9tWuok1VvnCK8N7C3OdoA' });
+  const unsplash = createApi({ accessKey: process.env.API_KEY });
   // funciones
   async function searchOnUnplash(e, inputform) {
     e.preventDefault();

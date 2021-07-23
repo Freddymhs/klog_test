@@ -7,12 +7,6 @@ import styles from '../styles/Index.module.css';
 
 export default function Index() {
   useEffect(() => {
-    console.log(process.env.API_KEY);
-    console.log(`prueba de env desde vercel : ${process.env.SUPERKEY}`);
-    console.log(`prueba de env desde vercel : ${process.env.SUPERKEY}`);
-    console.log(`prueba de env desde vercel : ${process.env.SUPERKEY}`);
-    console.log(`prueba de env desde vercel : ${process.env.SUPERKEY}`);
-
     console.log('index mounted');
   }, []);
 
