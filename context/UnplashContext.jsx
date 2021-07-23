@@ -9,10 +9,11 @@ export const UnplashContext = createContext();
 
 // PROVIDER
 const UnplashProvider = (props) => {
-  console.log('process.env.accessKey:', process.env.accessKey);
-  console.log('process.env.accessKey:', process.env.accessKey);
-  console.log('process.env.accessKey:', process.env.accessKey);
-  console.log('process.env.accessKey:', process.env.accessKey);
+  console.log('process.env.accessKey:', process.env.ACCESSKEY);
+  console.log('process.env.accessKey:', process.env.ACCESSKEY);
+  console.log('process.env.accessKey:', process.env.ACCESSKEY);
+  console.log('process.env.accessKey:', process.env.ACCESSKEY);
+  console.log('process.env.accessKey:', process.env.ACCESSKEY);
   // constatnes
   const [images, setImages] = useState([]);
   // const unsplash = createApi({ accessKey: 'YG9kLg6Zb_StSsdpa_-MVy9tWuok1VvnCK8N7C3OdoA' });
