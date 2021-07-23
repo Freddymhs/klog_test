@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react';
-import Axios from 'axios';
+
 // fetch
 import 'whatwg-fetch';
 import { createApi } from 'unsplash-js';
