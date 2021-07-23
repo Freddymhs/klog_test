@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     SUPERKEY: 'hola',
-    API_KEY: process.env.SUPERKEY,
+    API_KEY: process.env.TEST_KEY,
 
   },
   reactStrictMode: true,
