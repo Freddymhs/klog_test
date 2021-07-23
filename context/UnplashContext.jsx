@@ -1,5 +1,6 @@
 import React, { createContext, useState, useEffect } from 'react';
-import Axios from 'axios';
+import { loadEnvConfig } from '@next/env';
+
 // fetch
 import 'whatwg-fetch';
 import { createApi } from 'unsplash-js';
@@ -9,16 +10,16 @@ export const UnplashContext = createContext();
 
 // PROVIDER
 const UnplashProvider = (props) => {
-  console.log('process.env.accessKey:', process.env.ACCESS_UNPLASH);
-  console.log('process.env.accessKey:', process.env.ACCESS_UNPLASH);
-  console.log('process.env.accessKey:', process.env.ACCESS_UNPLASH);
-  console.log('process.env.accessKey:', process.env.ACCESS_UNPLASH);
-  console.log('process.env.accessKey:', process.env.ACCESS_UNPLASH);
+  console.log(`${process.env.ACCESS_UNPLASH}`);
+  console.log(`${process.env.ACCESS_UNPLASH}`);
+  console.log(`${process.env.ACCESS_UNPLASH}`);
+  console.log(`${process.env.ACCESS_UNPLASH}`);
+
   // constatnes
   const [images, setImages] = useState([]);
   // const unsplash = createApi({ accessKey: 'YG9kLg6Zb_StSsdpa_-MVy9tWuok1VvnCK8N7C3OdoA' });
 
-  const unsplash = createApi({ accessKey: process.env.accessKey });
+  const unsplash = createApi({ accessKey: `${process.env.ACCESS_UNPLASH}` });
   // funciones
   async function searchOnUnplash(e, inputform) {
     e.preventDefault();
