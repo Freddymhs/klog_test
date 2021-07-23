@@ -1,7 +1,6 @@
 module.exports = {
   env: {
-    SUPERKEY: 'hola',
-    API_KEY: process.env.TEST_KEY,
+    API_KEY: process.env.SUPERKEY, // aqui asigno la varaible que cree en vercel, arreglado
 
   },
   reactStrictMode: true,
